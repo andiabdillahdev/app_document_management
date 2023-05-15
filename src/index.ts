@@ -50,7 +50,7 @@ const start_server = () => {
   );
 
   app.get("/", function (req, res) {
-    res.render("index");
+    res.redirect("login");
   });
   app.set("view engine", "ejs");
   app.set("views", path.join(__dirname, "../views"));
