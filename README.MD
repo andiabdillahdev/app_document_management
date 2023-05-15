@@ -33,7 +33,7 @@ Default user
 
 # Catatan
 
-- harus menyertakan konfigurasi file env
+- harus menyertakan konfigurasi file env, lihat .env.example
 - di repository ini terdapat file .sql dan video demo
 
 # npm start or npm run dev
