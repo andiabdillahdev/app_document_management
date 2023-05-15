@@ -1,0 +1,8 @@
+<% if(alert.message !== '') { %>
+<div
+  class="alert alert-<%= alert.status %> alert-dismissible fade show"
+  role="alert"
+>
+  <%= alert.message %>
+</div>
+<% } %>
