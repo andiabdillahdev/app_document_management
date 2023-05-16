@@ -52,7 +52,7 @@ Default user
 # Catatan
 
 - harus menyertakan konfigurasi file env, lihat .env.example
-- di repository ini terdapat file .sql dan video demo
+- di repository ini terdapat video demo aplikasi
 
 # npm start or npm run dev
 
