@@ -2,6 +2,24 @@
 
 Document Management App
 
+Langkah instalasi
+
+1. Sertakan konfigurasi env di project ini dengan .env.example sebagai referensi
+2. Jalankan npm install
+3. jalankan perintah npx sequelize-cli db:migrate untuk migrasi tabel
+4. jalankan perintah npx sequelize-cli db:seed:all untuk membuat user default admin dan user
+
+Default user
+
+- role admin
+  admin@gmail.com
+  admin12345
+- role user
+  andiabdillah004@gmail.com
+  user12345
+
+4.  jalankan npm run start
+
 Tools yang digunakan?
 
 - Node.js JavaScript run-time environment
