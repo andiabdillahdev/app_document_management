@@ -103,6 +103,7 @@
                   class="form-control"
                   id="judul"
                   name="judul"
+                  required
                 />
               </div>
               <div class="mb-3">
@@ -112,6 +113,7 @@
                   class="form-control"
                   id="deskripsi"
                   name="deskripsi"
+                  required
                 />
               </div>
               <div class="mb-3">
@@ -123,11 +125,18 @@
                   class="form-control"
                   id="tanggal_unggah"
                   name="tanggal_unggah"
+                  required
                 />
               </div>
               <div class="mb-3">
                 <label for="file" class="form-label">File</label>
-                <input type="file" class="form-control" id="file" name="file" />
+                <input
+                  type="file"
+                  class="form-control"
+                  id="file"
+                  name="file"
+                  required
+                />
               </div>
               <button type="submit" class="btn btn-primary">Submit</button>
             </form>
